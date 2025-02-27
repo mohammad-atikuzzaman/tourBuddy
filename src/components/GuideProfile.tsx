@@ -1,5 +1,8 @@
 import { Car, Clock, Star, Users } from "lucide-react";
-import  { FC } from "react";
+import { FC } from "react";
+import { FaPhone } from "react-icons/fa6";
+import { GrUserExpert } from "react-icons/gr";
+import { MdLocationPin } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const GuideProfile: FC = () => {
@@ -31,7 +34,7 @@ const GuideProfile: FC = () => {
 
           <h1 className="text-2xl font-bold mb-3 font-volkhov">Raihan Ahmad</h1>
 
-          <div className="flex flex-wrap gap-4 mb-4">
+          <div className="flex flex-wrap gap-4 mb-2">
             <div className="flex items-center text-gray-600">
               <Clock className="w-5 h-5 mr-1" />
               <span>2 hours</span>
@@ -43,6 +46,20 @@ const GuideProfile: FC = () => {
             <div className="flex items-center text-gray-600">
               <Users className="w-5 h-5 mr-1" />
               <span>Family Plan</span>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-4 mb-4">
+            <div className="flex items-center text-gray-600">
+              <GrUserExpert className="mx-1" />
+              <span>2 years</span>
+            </div>
+            <div className="flex items-center text-gray-600">
+              <MdLocationPin className="text-xl mr-1" />
+              <span>Kuakata</span>
+            </div>
+            <div className="flex items-center text-gray-600">
+              <FaPhone className=" mr-1" />
+              <span>+8801700000000</span>
             </div>
           </div>
         </div>
