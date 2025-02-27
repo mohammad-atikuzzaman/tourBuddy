@@ -73,7 +73,7 @@ const GuideProfile: FC = () => {
       </div>
       <Link
         to="/payment"
-        className="bg-gray-900 hover:bg-gray-800 text-white w-[20%] text-center rounded-[42px] font-medium text-2xl py-8"
+        className="bg-gray-900 hover:bg-gray-800 text-white w-[20%] text-center font-orbitron rounded-[42px] font-medium text-2xl py-8"
       >
         Hire Me
       </Link>

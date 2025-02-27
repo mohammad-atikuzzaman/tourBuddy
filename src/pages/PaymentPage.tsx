@@ -10,7 +10,7 @@ const PaymentPage: React.FC = () => {
 
       <div className="flex justify-between">
         <div className="w-[65%]">
-          <h2 className="text-4xl font-bold mb-6">Choose Payment Method</h2>
+          <h2 className="text-4xl mb-6 font-serif">Choose Payment Method</h2>
 
           <div className="space-y-4 mb-6">
             <div>

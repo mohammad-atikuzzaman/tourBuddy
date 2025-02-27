@@ -5,7 +5,8 @@ export default {
     extend: {
       fontFamily: {
         volkhov: ["Volkhov", "serif"],
-        mulish: ["Mulish", "sans-serif"]
+        mulish: ["Mulish", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
       },
     },
   },

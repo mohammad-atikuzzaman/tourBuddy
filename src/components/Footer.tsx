@@ -7,7 +7,7 @@ const Footer: FC = () => {
   return (
     <footer className="bg-[#13253F] text-white py-12">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-slate-500">tour buddy</h2>
+        <h2 className="text-3xl font-bold text-slate-500 font-orbitron">tour buddy</h2>
         <div className=" px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 ">
             {/* Language & Currency Selectors */}

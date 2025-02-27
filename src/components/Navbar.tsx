@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <header className="border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold text-gray-700">tour buddy</span>
+          <span className="text-[26px] tracking-widest font-bold text-gray-700 font-orbitron">tour buddy</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8">
