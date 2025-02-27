@@ -1,7 +1,7 @@
 import React from "react";
 
 interface PaymentMethodProps {
-  selectedMethod: string;
+  selectedMethod: string | null;
   setSelectedMethod: (method: string) => void;
 }
 

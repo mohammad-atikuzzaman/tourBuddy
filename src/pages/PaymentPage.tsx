@@ -7,11 +7,11 @@ const PaymentPage: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-8">Payment</h1>
+      <h1 className="text-3xl font-bold mb-8">Payment</h1>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2">
-          <h2 className="text-2xl font-bold mb-6">Choose Payment Method</h2>
+      <div className="flex justify-between">
+        <div className="w-[65%]">
+          <h2 className="text-4xl font-bold mb-6">Choose Payment Method</h2>
 
           <div className="space-y-4 mb-6">
             <div>
@@ -19,7 +19,7 @@ const PaymentPage: React.FC = () => {
               <input
                 type="text"
                 placeholder="Ahnaf Amer"
-                className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border-none  rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -30,7 +30,7 @@ const PaymentPage: React.FC = () => {
               <input
                 type="text"
                 placeholder="----------"
-                className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border-none  rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -39,7 +39,7 @@ const PaymentPage: React.FC = () => {
               <input
                 type="tel"
                 placeholder="+8801321454687"
-                className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border-none  rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
@@ -48,12 +48,12 @@ const PaymentPage: React.FC = () => {
               <input
                 type="password"
                 placeholder="--------"
-                className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border-none  rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
           </div>
 
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <p className="font-medium mb-3">Select Method:</p>
             <SelectPaymentMethod
               selectedMethod={selectedMethod}
@@ -63,9 +63,9 @@ const PaymentPage: React.FC = () => {
 
           <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-medium">
             Confirm Payment
-          </button>
+          </button> */}
 
-          <div className="mt-8 grid grid-cols-4 sm:grid-cols-5 gap-4">
+          {/* <div className="mt-8 grid grid-cols-4 sm:grid-cols-5 gap-4">
             {[
               "visa",
               "mastercard",
@@ -89,23 +89,28 @@ const PaymentPage: React.FC = () => {
                 />
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
-        <div>
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-            <div className="flex justify-center mb-4">
-              <img
-                src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80"
-                alt="Payment Method"
-                className="h-32 object-contain"
-              />
-            </div>
-            <h3 className="text-center font-bold text-lg mb-2">
-              PAYMENT METHOD
-            </h3>
-          </div>
+        <div className="w-[30%] flex justify-center items-center">
+          <img
+            src="/paymentImage/payment1.png"
+            alt="Payment Method"
+            className=" object-contain"
+          />
         </div>
+      </div>
+      <div>
+        <div className="mb-8">
+          <p className="font-medium mb-3">Select Method:</p>
+          <SelectPaymentMethod
+            selectedMethod={selectedMethod}
+            setSelectedMethod={setSelectedMethod}
+          />
+        </div>
+        <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-medium">
+          Confirm Payment
+        </button>
       </div>
 
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
