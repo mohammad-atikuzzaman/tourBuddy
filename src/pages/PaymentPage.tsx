@@ -71,7 +71,7 @@ const PaymentPage: React.FC = () => {
             />
           </div>
         </div>
-        <button className="bg-gray-900 w-[15%] hover:bg-gray-800 text-white px-6 py-3 rounded-full font-medium">
+        <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-full font-medium">
           Confirm Payment
         </button>
         <img src="/paymentImage/ssl2.png" alt="" className="mt-6" />
