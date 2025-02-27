@@ -1,5 +1,5 @@
 import { Car, Clock, Star, Users } from "lucide-react";
-import React, { FC } from "react";
+import  { FC } from "react";
 import { Link } from "react-router-dom";
 
 const GuideProfile: FC = () => {

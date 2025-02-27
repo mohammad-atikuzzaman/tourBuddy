@@ -1,5 +1,5 @@
 import { CheckCheck, Star } from "lucide-react";
-import React, { FC } from "react";
+import { FC } from "react";
 
 const Review: FC = () => {
   return (

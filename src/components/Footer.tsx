@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import { Facebook, Twitter, Instagram, ChevronDown } from "lucide-react";
+import { FC } from "react";
+import { ChevronDown } from "lucide-react";
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
